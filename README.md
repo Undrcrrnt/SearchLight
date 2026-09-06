@@ -1,3 +1,4 @@
+<img width="512" height="512" alt="SearchLight Logo 1" src="https://github.com/user-attachments/assets/eba639e0-37c1-4759-aaa6-01420cac7168" />
 
 # SearchLight
 
