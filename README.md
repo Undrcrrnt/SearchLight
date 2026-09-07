@@ -30,3 +30,7 @@ The software only points at differences. It does not rank threats or decide impo
 ## Privacy
 
 See the [privacy policy](https://github.com/Undrcrrnt/SearchLight/blob/main/privacy.html).
+
+## User manual
+
+See the [user manual](https://undrcrrnt.github.io/SearchLight/manual.html).
