@@ -4,7 +4,7 @@
 
 SearchLight is an Android app for before-and-after photo comparison. Photograph a room, drawer, shelf, or bag once, photograph it again later, and the app lines the two pictures up and marks what looks different. You decide whether a mark matters.
 
-Photos, session names, and comparison logs stay on the device. SearchLight does not create an account and does not upload your pictures.
+Photos, session names, and masks stay on the device. SearchLight does not create an account and does not upload your pictures.
 
 ## Use cases
 
@@ -18,18 +18,17 @@ Typical flow: create a session, take a **baseline** photo, take a **check** phot
 ## What it does
 
 - **Sessions** — Keep separate baseline/check sets for different places (desk drawer, nightstand, bag).
-- **Capture** — Use the camera or pick a photo with the system picker. Optional ghost overlay, composition grid, flash, and autofocus help you match the original angle.
+- **Capture** — Use the camera or pick a photo with the system picker. Optional ghost overlay, composition grid, flash, autofocus, and pinch zoom help you match the original angle. **Match zoom** returns a later check to the zoom saved with the baseline.
 - **Alignment** — Auto-aligns photos taken from slightly different positions. If that fails, tap matching points on both images. A figure of merit (FoM) shows how well they lined up.
 - **Comparison views** — Flip-flop, wipe slider, difference, heatmap, gray diff, subtract, edge (Canny), overlay, and side-by-side.
 - **Masks** — Paint **ignore** regions to hide motion you do not care about (a clock, a window). Paint **include** regions to limit marking to a drawer, bag, or other area of interest.
-- **Review tools** — Pinch to zoom, paired luminance histograms, and check history for a session.
-- **Export** — Share a text comparison log through the Android share sheet. SearchLight does not send it anywhere on its own.
+- **Review tools** — Pinch to zoom, paired luminance histograms, check history, and Save Difference for a session.
 
 The software only points at differences. It does not rank threats or decide importance.
 
 ## Privacy
 
-See the [privacy policy](https://github.com/Undrcrrnt/SearchLight/blob/main/privacy.html).
+See the [privacy policy](https://undrcrrnt.github.io/SearchLight/privacy.html).
 
 ## User manual
 
